@@ -1,60 +1,7 @@
-# p5.js Template
+The book I would like to choose is Shakespeare's The Tempest. This is a story about family and revenge. The storm created by the fairy Ariel in this book is the beginning of it all. So just like the name of this book, The Tempest, I wanted to choose a storm as the book cover.
 
-This is a README file that can be used to describe and document your assignment.
+https://imgpile.com/images/D0R9b3.jpg
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+Just like what I drew in the sketch above, I hope to create an interactive interface. At the beginning, it is a calm picture, but the ship is motionless, which is Figure 1. When the viewer's mouse moves across the waves, the waves will rise, as shown in Figure 2. Clicking the cloud with the viewer's mouse will cause a lightning effect and the sky will darken at the same time. The boat is always in the center of the screen, but will sway with the appearance of waves and lightning, and finally turn over.
 
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+But what I'm wondering is, could the boat be drawn by myself and sticked on the center of the page so that adjusting the angle as a whole would be simpler than adjusting all the geometry?
