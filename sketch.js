@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-  background("blue");
+  background("lightblue");
 
 
   let distance = dist(mouseX, mouseY, pmouseX, pmouseY);
@@ -37,6 +37,112 @@ function draw() {
 
   noFill();
   stroke("white");
+  strokeWeight(5);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
+  beginShape();
+  for (let i = 0; i < numPoints; i++) {
+    vertex(wave[i].x, wave[i].y);
+  }
+  endShape();
+  translate(0,25);
   beginShape();
   for (let i = 0; i < numPoints; i++) {
     vertex(wave[i].x, wave[i].y);
