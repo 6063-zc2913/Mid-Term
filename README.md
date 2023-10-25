@@ -18,3 +18,13 @@ I want the waves can follow the movement of my mouse, and return to a straight l
 A line is composed of countless points, and the distance between the detected mouse and the point is dx and dy. I use offset to represent the displacement of each point, and the calculation of the displacement depends on the distance d. The sin(d/50) part makes the shape of the wave change at a certain frequency, and waveHeight controls the amplitude of the wave. And when it is detected that the mouse is not moving, it becomes a straight line.
 
 Finally, draw the waves. The highest point of the line is the distance from the point to the mouse. Since there are many waves, I directly use translate() to copy the waves one by one, but this seems like I have too much repeated code. Is there any way to directly copy the lines without too many repeat code?
+
+
+
+
+Part3: 
+First, I preloaded two pictures I drew, namely boat and lightning. For Boat, my initial idea was to make the boat rise and fall with the waves. However, it's challenging to achieve this because when the waves' peaks are too high, the boat gets buried under other waves, making it look chaotic. So, I just made the boat and waves move independently. When the mouse movement is detected, the boat randomly rotates in a fixed position, while the waves rise and fall with a cosine function.
+
+For Boat roatation, I used Math.random() to randomly generate a  number in the range -50 to 50. Then use imageRotation to control the rotation angle.
+
+I want a lightning effect to appear when the mouse clicked, and this effect only lasts for a short time. So I first used the image function to draw two lightning pictures, located at different positions on the canvas. Then use count to detect the time when the lightning image appears. If count is equal to 50, it means that 50 frames of lightning images have been drawn, so showImage needs to be set to false to stop drawing lightning images. Finally, the count is reset to 0 in preparation for drawing the lightning image again on the next mouse click event.

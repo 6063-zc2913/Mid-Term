@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1350, 900);
   // create wave vectors
   for (let i = 0; i < numPoints; i++) {
     wave[i] = createVector(i * width / (numPoints - 1), height / 2);
@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-  background("lightblue");
+  background(50,120,204);
   
   frameCount = frameCount + 1
   // frame internal
@@ -72,8 +72,9 @@ function draw() {
   
   // show lightning image only if mouse is clicked, show for 50 frames
   if (showImage) {
-    image(lightningImg, width / 5, height / 5, 200, 200);
-    image(lightningImg, width / 5 * 4, height / 5, 200, 200);
+    
+    image(lightningImg, width / 5, 150, 300, 300);
+    image(lightningImg, width / 5 * 4, 150, 300, 300);
     count = count + 1
     if (count == 50) {
       showImage = false
